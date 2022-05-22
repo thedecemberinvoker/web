@@ -798,6 +798,8 @@ footer .copyright{
     align-items: flex-start;
 }
 
+
+
 #form-details form textarea,
 #form-details form input{
     width: 100%;
@@ -838,7 +840,54 @@ footer .copyright{
     color: #000;
 }
 
+
+
+#form-details .form-heading{
+    justify-content: center;
+    align-items: center;
+}
+
+#form-details .form-submit{
+    width: 100%;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out;
+}
+#form-details .form-submit:hover{
+    border: 1px solid #ffbe76;
+}
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#form-details form textarea,
+#form-details form input{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+
 /*Cart*/
+
 
 #cart{
     overflow-x: auto;
@@ -952,6 +1001,69 @@ footer .copyright{
     border: 1px solid #e2e9e1;
     padding: 10px ;
     font-size: 13px;
+}
+
+
+#login-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#login-details .wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login-details form input{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#login-details button{
+    background-color: #eee;
+}
+
+#login-details button:hover{
+    background: #088178;
+    color: #fff;
+}
+#login-details .form-submit{
+    background-color: #088178;
+}
+
+#login-details .form-submit:hover{
+    background: #088178;
+    color: #fff;
+}
+
+#login-details h1, h4{
+    text-align: center;
+}
+
+#login-details p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+#login-details .p2{
+    text-align: center;
+    color: #088178;
+}
+
+#help{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
 }
 
 
