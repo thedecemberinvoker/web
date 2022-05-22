@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping With Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d62dfa0aa8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  class="active" href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header"> 
+        <h2>#let's_talk</h2>
+        <p>JUST LEAVE A MESSAGE, Group 9 is always there!</p>
+    </section>
+
+    <section id="login-details" class="section-p1">
+        <div id="wrapper">
+        <form action="login.php" >
+                <h1 class="form-heading">staytune!</h1>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Username" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    title="Please include an '@' in the username" 
+                    required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" placeholder="Password"
+                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                     title="Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+                     required>
+                     <h2></h2>
+                </div> 
+                <input type="submit" value="Sign In" class="form-submit">
+                <SPAN>No account yet?</SPAN>
+                <button type="button" onclick="location.href='signup.html'" class="normal" >SIGN UP </button>
+                
+             
+
+        </form>
+    </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span> 70% Off </span> - All T-Shirts & Accessories</h2>
+        <button class="normal">Explore More </button>
+    </section>
+    
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>Jayce Talis</span>Senior Marketing Manager <br>jaycetalis@example.com</p>
+            </div>
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>Garen Crownguard</span>Product Manager <br>garencrownguard@example.com</p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>Irelia Xan</span>Heading Manager <br>ireliaxan@example.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Bui Vien Street, Pham Ngu Lao Ward, District 1, Ho Chi Minh City</p>
+            <p><strong>Phone: </strong>0909 123 234/0909 345 567</p>
+            <p><strong>Hours: </strong>9:00-21:00. Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="contact.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="help.html">Privacy Policy</a>
+            <a href="help.html">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="signin.html">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="help.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022, Group 9  - Web and Application Security </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
